@@ -1,0 +1,86 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+main {
+  color: var(--primary);
+}
+
+.page-3 .wrapper {
+  max-height: 584px;
+  overflow-x: hidden;
+  padding-right: 5px;
+  overflow-x: scroll;
+}
+
+.page-3 .wrapper::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+  border-radius: 20px;
+  background-color: #F2F2F2;
+}
+
+.page-3 .wrapper::-webkit-scrollbar-thumb {
+border-radius: 20px;
+background-color: var(--primary);
+}
+
+.page-3 .table {
+  font-size: 13px;
+  border-left:2px solid var(--primary);
+  border-right:2px solid var(--primary);
+}
+
+.page-3 thead th {
+  color: #fff;
+}
+
+.page-3 th {
+  border-top:2px solid var(--primary);
+  border-bottom:2px solid var(--primary);
+  color: var(--primary);
+}
+
+.page-3 td {
+  border-top:2px solid var(--primary);
+  border-bottom:2px solid var(--primary);
+  color: var(--primary);
+}
+
+
+.page-3.botones a span {
+  color: #fff;
+}
+
+.page-3 .botones a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.page-3 .botones {
+  margin-top: 30px;
+}
+
+.page-3 .botones img {
+  height: 35px;
+}
+
+/* .botones .task {
+  padding-right: 7px;
+}
+.botones .update {
+  padding-right: 25px;
+}
+.botones .back {
+  padding-right: 40px;
+} */

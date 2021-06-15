@@ -1,0 +1,30 @@
+@import './logo.css';
+@import './page-1.css';
+@import './page-2.css';
+@import './page-3.css';
+@import './page-4.css';
+@import './page-5.css';
+@import './menu.css';
+:root {
+  --primary: #007bff;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  body table label {
+    font-size: 10px;
+  }
+
+   * a{
+    font-size: 12px !important;
+  }
+
+  .page-4 .botones div {
+    margin-bottom: 15px;
+  }
+
+  .page-5 .botones div {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,87 @@
+.page-5  .wrapper {
+  max-height: 642px;
+  overflow-x: hidden;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+.page-5 .wrapper::-webkit-scrollbar {
+  height: 7px;
+  width: 7px;
+  border-radius: 20px;
+  background-color: #F2F2F2;
+}
+
+.page-5 .wrapper::-webkit-scrollbar-thumb {
+border-radius: 20px;
+background-color: var(--primary);
+}
+
+.page-5 .table {
+  font-size: 13px;
+  border-left:2px solid var(--primary);
+  border-right:2px solid var(--primary);
+}
+
+.page-5 .productos thead th {
+  color: #fff;
+
+}
+.page-5 .productos th {
+  border-top:2px solid var(--primary);
+  border-bottom:2px solid var(--primary);
+  color: var(--primary);
+}
+
+.page-5 .productos td {
+  border-top:2px solid var(--primary);
+  border-bottom:2px solid var(--primary);
+  color: var(--primary);
+}
+
+.page-5 .productos td .top {
+  font-weight: 700;
+}
+
+.page-5 .resultados span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.page-5 .resultados .total {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #e4e9f7;
+  margin-bottom: 20px;
+}
+
+.page-5 .botones .boton {
+  min-width: 200px;
+}
+
+.page-5 .botones a {
+  width: 100%;
+  padding: 0;
+  text-align: start;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.page-5 .botones a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.page-5 .botones a img {
+  padding-right: 10px;
+}
+
+.page-5 .botones .back {
+  padding-right: 10px;
+}
+
+.page-5 .botones img {
+  height: 35px;
+}
